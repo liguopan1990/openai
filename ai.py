@@ -39,8 +39,8 @@ def choose():
     global model
     global prompt
     global content
-    openai.organization = "org-I5G9A1jWe86NPq15a4jE6p1X"
-    openai.api_key = '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'
+    openai.organization = "xxxxxxxxx"
+    openai.api_key = 'xxxxxxxxxxxxx'
     prompt = msg.get()
     model = "text-davinci-003"
     content = ""
